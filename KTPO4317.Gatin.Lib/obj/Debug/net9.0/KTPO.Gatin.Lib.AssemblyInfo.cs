@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KTPO.Gatin.Lib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85fba088b1636f237d10d468281b3dd9fb18ed44")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9abd230e57bfde48f9eb06686c479b02a6b8f3ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("KTPO.Gatin.Lib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KTPO.Gatin.Lib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

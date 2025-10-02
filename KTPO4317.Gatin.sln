@@ -2,7 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTPO4317.Gatin.UnitTest", "KTPO4317.Gatin.UnitTest\KTPO4317.Gatin.UnitTest.csproj", "{56ACFDF4-B2DE-48B5-8461-D9829AE390C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTPO.Gatin.Lib", "KTPO.Gatin.Lib\KTPO.Gatin.Lib.csproj", "{5A552509-56BB-4913-958B-5AD3E3211732}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTPO4317.Gatin.Lib", "KTPO4317.Gatin.Lib\KTPO4317.Gatin.Lib.csproj", "{5A552509-56BB-4913-958B-5AD3E3211732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTPO4317.Gatin.Service", "KTPO4317.Gatin.Service\KTPO4317.Gatin.Service.csproj", "{118F3DF1-7CA8-4E91-A21A-92648940D6B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,9 @@ Global
 		{5A552509-56BB-4913-958B-5AD3E3211732}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A552509-56BB-4913-958B-5AD3E3211732}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A552509-56BB-4913-958B-5AD3E3211732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118F3DF1-7CA8-4E91-A21A-92648940D6B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118F3DF1-7CA8-4E91-A21A-92648940D6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118F3DF1-7CA8-4E91-A21A-92648940D6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118F3DF1-7CA8-4E91-A21A-92648940D6B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

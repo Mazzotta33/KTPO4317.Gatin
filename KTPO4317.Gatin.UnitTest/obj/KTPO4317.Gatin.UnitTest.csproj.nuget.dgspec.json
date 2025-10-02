@@ -4,14 +4,14 @@
     "D:\\Лабы\\KTPO4317.Gatin\\KTPO4317.Gatin.UnitTest\\KTPO4317.Gatin.UnitTest.csproj": {}
   },
   "projects": {
-    "D:\\Лабы\\KTPO4317.Gatin\\KTPO.Gatin.Lib\\KTPO.Gatin.Lib.csproj": {
+    "D:\\Лабы\\KTPO4317.Gatin\\KTPO4317.Gatin.Lib\\KTPO4317.Gatin.Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Лабы\\KTPO4317.Gatin\\KTPO.Gatin.Lib\\KTPO.Gatin.Lib.csproj",
-        "projectName": "KTPO.Gatin.Lib",
-        "projectPath": "D:\\Лабы\\KTPO4317.Gatin\\KTPO.Gatin.Lib\\KTPO.Gatin.Lib.csproj",
+        "projectUniqueName": "D:\\Лабы\\KTPO4317.Gatin\\KTPO4317.Gatin.Lib\\KTPO4317.Gatin.Lib.csproj",
+        "projectName": "KTPO4317.Gatin.Lib",
+        "projectPath": "D:\\Лабы\\KTPO4317.Gatin\\KTPO4317.Gatin.Lib\\KTPO4317.Gatin.Lib.csproj",
         "packagesPath": "C:\\Users\\Razil\\.nuget\\packages\\",
-        "outputPath": "D:\\Лабы\\KTPO4317.Gatin\\KTPO.Gatin.Lib\\obj\\",
+        "outputPath": "D:\\Лабы\\KTPO4317.Gatin\\KTPO4317.Gatin.Lib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.12.0, )"
@@ -119,8 +123,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Лабы\\KTPO4317.Gatin\\KTPO.Gatin.Lib\\KTPO.Gatin.Lib.csproj": {
-                "projectPath": "D:\\Лабы\\KTPO4317.Gatin\\KTPO.Gatin.Lib\\KTPO.Gatin.Lib.csproj"
+              "D:\\Лабы\\KTPO4317.Gatin\\KTPO4317.Gatin.Lib\\KTPO4317.Gatin.Lib.csproj": {
+                "projectPath": "D:\\Лабы\\KTPO4317.Gatin\\KTPO4317.Gatin.Lib\\KTPO4317.Gatin.Lib.csproj"
               }
             }
           }

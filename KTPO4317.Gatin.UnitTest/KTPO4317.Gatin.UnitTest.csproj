@@ -21,7 +21,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\KTPO.Gatin.Lib\KTPO.Gatin.Lib.csproj" />
+      <ProjectReference Include="..\KTPO4317.Gatin.Lib\KTPO4317.Gatin.Lib.csproj" />
     </ItemGroup>
 
 </Project>

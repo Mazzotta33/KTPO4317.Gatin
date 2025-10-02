@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xko4Jx8wt50=",
+  "dgSpecHash": "0xxOSTs34d8=",
   "success": true,
-  "projectFilePath": "D:\\Лабы\\KTPO4317.Gatin\\KTPO4317.Gatin.UnitTest\\KTPO4317.Gatin.UnitTest.csproj",
+  "projectFilePath": "D:\\Лабы\\KTPO4317.Gatin\\KTPO4317.Gatin.Lib\\KTPO4317.Gatin.Lib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Razil\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\Razil\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",
