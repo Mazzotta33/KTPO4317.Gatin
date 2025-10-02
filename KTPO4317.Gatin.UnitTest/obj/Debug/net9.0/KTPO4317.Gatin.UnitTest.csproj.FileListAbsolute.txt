@@ -103,3 +103,4 @@ D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.UnitTest\bin\Debug\net9.0\KTPO.Gatin.L
 D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.UnitTest\bin\Debug\net9.0\KTPO.Gatin.Lib.runtimeconfig.json
 D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.UnitTest\bin\Debug\net9.0\KTPO.Gatin.Lib.dll
 D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.UnitTest\bin\Debug\net9.0\KTPO.Gatin.Lib.pdb
+D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.UnitTest\obj\Debug\net9.0\KTPO4317.Gatin.UnitTest.sourcelink.json

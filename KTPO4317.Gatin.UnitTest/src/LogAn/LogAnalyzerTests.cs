@@ -1,60 +1,57 @@
 ﻿using KTPO.Gatin.Lib.LogAn;
 using NUnit.Framework.Legacy;
 
-namespace KTPO4317.Gatin.UnitTest.LogAn;
-
-[TestFixture]
-public class LogAnalyzerTests
+namespace KTPO4317.Gatin.UnitTest.LogAn
 {
-    [Test]
-    public void IsValidLogFileName_BadExtension_ReturnsFalse()
+    [TestFixture]
+    public class LogAnalyzerTests
     {
-        LogAnalyzer analyzer = new LogAnalyzer();
+        [Test]
+        public void IsValidFileName_NameSupportedExtension_ReturnsTrue()
+        {
+            FakeExtensionManager fakeManager = new FakeExtensionManager();
+            fakeManager.WillBeValid = true;
+            
+            LogAnalyzer log = new LogAnalyzer(fakeManager);
+            bool result = log.IsValidLogFileName("file.Gatin");
+            Assert.That(result, Is.True);
+        }
         
-        bool result = analyzer.IsValidLogFileName(@"C:\log\log.txt");
+        [Test]
+        public void IsValidFileName_NameUnsupportedExtension_ReturnsFalse()
+        {
+            var fakeMgr = new FakeExtensionManager { WillBeValid = false };
+            var analyzer = new LogAnalyzer(fakeMgr);
+
+            bool result = analyzer.IsValidLogFileName("file.txt");
+
+            Assert.That(result, Is.False);
+        }
         
-        Assert.That(result, Is.False);
-    }
-    
-    [Test]
-    public void IsValidLogFileName_GoodExtensionUppercase_ReturnsTrue()
-    {
-        var analyzer = new LogAnalyzer();
-        bool result = analyzer.IsValidLogFileName("file.GATIN");
-        Assert.That(result, Is.True);
+        [Test]
+        public void IsValidFileName_ExtManagerThrowsException_ReturnsFalse()
+        {
+            var fakeMgr = new FakeExtensionManager { WillThrow = new Exception("Ошибка") };
+            var analyzer = new LogAnalyzer(fakeMgr);
+
+            bool result = analyzer.IsValidLogFileName("file.Gatin");
+
+            Assert.That(result, Is.False);
+        }
     }
 
-    [Test]
-    public void IsValidLogFileName_GoodExtensionLowercase_ReturnsTrue()
+    internal class FakeExtensionManager : IExtensionManager
     {
-        var analyzer = new LogAnalyzer();
-        bool result = analyzer.IsValidLogFileName("file.gatin");
-        Assert.That(result, Is.True);
-    }
-    
-    [TestCase("file.GATIN")]
-    [TestCase("file.gatin")]
-    public void IsValidLogFileName_ValidExtension_ReturnsTrue( string fileName)
-    {
-        var analyzer = new LogAnalyzer();
-        bool result = analyzer.IsValidLogFileName(fileName);
-        Assert.That(result, Is.True);
-    }
+        public bool WillBeValid = false;
+        public Exception WillThrow = null;
+        public bool IsValid(string fileName)
+        {
+            if (WillThrow != null)
+            {
+                throw WillThrow;
+            }
 
-    [Test]
-    public void IsValidFileName_EmptyFileName_Throws()
-    {
-        LogAnalyzer analyzer = new LogAnalyzer();
-        var ex = Assert.Catch<ArgumentException>(() => analyzer.IsValidLogFileName(""));
-        StringAssert.Contains("Имя файла должно быть задано", ex.Message);
-    }
-
-    [TestCase("file.foo", false)]
-    [TestCase("file.Gatin", true)]
-    public void IsValidFilename_WhenCalled_ChangesWasLastFileNameValid(string file, bool expected)
-    {
-        LogAnalyzer analyzer = new LogAnalyzer();
-        analyzer.IsValidLogFileName(file);
-        Assert.That(analyzer.WasLastFileNameValid, Is.EqualTo(expected));
+            return WillBeValid;
+        }
     }
 }

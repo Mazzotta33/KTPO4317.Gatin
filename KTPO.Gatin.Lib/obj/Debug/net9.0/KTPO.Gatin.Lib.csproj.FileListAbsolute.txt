@@ -97,3 +97,4 @@ D:\Лабы\KTPO4317.Gatin\KTPO.Gatin.Lib\obj\Debug\net9.0\refint\KTPO.Gatin.Lib
 D:\Лабы\KTPO4317.Gatin\KTPO.Gatin.Lib\obj\Debug\net9.0\KTPO.Gatin.Lib.pdb
 D:\Лабы\KTPO4317.Gatin\KTPO.Gatin.Lib\obj\Debug\net9.0\KTPO.Gatin.Lib.genruntimeconfig.cache
 D:\Лабы\KTPO4317.Gatin\KTPO.Gatin.Lib\obj\Debug\net9.0\ref\KTPO.Gatin.Lib.dll
+D:\Лабы\KTPO4317.Gatin\KTPO.Gatin.Lib\obj\Debug\net9.0\KTPO.Gatin.Lib.sourcelink.json

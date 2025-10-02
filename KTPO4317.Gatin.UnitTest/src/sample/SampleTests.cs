@@ -5,10 +5,6 @@ public class SampleTests
     [Test]
     public void Demo()
     {
-        
-        ///fdsfdsfdsfdsfdsf
-        /// dsfdsfdsfsdf
-        /// sdfdsfdsfds
         Assert.Pass();
     }
 }

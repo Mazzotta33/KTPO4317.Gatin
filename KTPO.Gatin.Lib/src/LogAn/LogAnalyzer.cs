@@ -2,22 +2,22 @@
 
 public class LogAnalyzer
 {
-    public bool WasLastFileNameValid { get; set; }
+    private readonly IExtensionManager _extensionManager;
+
+    public LogAnalyzer(IExtensionManager extensionManager)
+    {
+        _extensionManager = extensionManager;
+    }
+
     public bool IsValidLogFileName(string fileName)
     {
-        WasLastFileNameValid = false;
-        
-        if (string.IsNullOrEmpty(fileName))
+        try
         {
-            throw new ArgumentNullException("Имя файла должно быть задано");
+            return _extensionManager.IsValid(fileName);
         }
-        
-        if (!fileName.EndsWith(".Gatin", StringComparison.CurrentCultureIgnoreCase))
+        catch
         {
             return false;
         }
-        WasLastFileNameValid = true;
-        
-        return true;
     }
 }
