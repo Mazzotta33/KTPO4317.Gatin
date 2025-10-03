@@ -18,7 +18,7 @@ public class FileExtensionManager : IExtensionManager
     {
         // Загружаем конфигурацию
         var config = new ConfigurationBuilder()
-            .SetBasePath(Directory.GetCurrentDirectory()) // путь к исполняемому проекту
+            .SetBasePath("D:/Лабы/KTPO4317.Gatin/KTPO4317.Gatin.Service")
             .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
             .Build();
 
