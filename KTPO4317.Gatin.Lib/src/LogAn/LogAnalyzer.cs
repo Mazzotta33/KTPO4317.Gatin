@@ -1,7 +1,30 @@
 ﻿namespace KTPO.Gatin.Lib.LogAn;
 
+public interface IWebService
+{
+    void LogError(string message);
+}
+
 public class LogAnalyzer
 {
+    public void Analyze(string fileName)
+    {
+        if (fileName.Length < 8)
+        {
+            try
+            {
+                var svc = WebServiceFactory.Create();
+                svc.LogError("Too short filename: " + fileName);
+            }
+            catch (Exception e)
+            {
+                IEmailService emailService = EmailServiceFactory.Create();
+                emailService.SendEmail("someone@somewhere.com", "EmailServie error", e.Message);
+            }
+            
+        }
+    }
+
     public bool IsValidLogFileName(string fileName)
     {
         var mgr = ExtensionManagerFactory.Create();
