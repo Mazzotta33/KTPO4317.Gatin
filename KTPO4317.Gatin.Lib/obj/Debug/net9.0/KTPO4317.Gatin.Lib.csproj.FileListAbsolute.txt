@@ -106,3 +106,8 @@ D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Lib\bin\Debug\net9.0\Microsoft.Extensi
 D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Lib\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
 D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Lib\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
 D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Lib\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Lib\bin\Debug\net9.0\Castle.Core.dll
+D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Lib\bin\Debug\net9.0\NSubstitute.dll
+D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Lib\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Lib\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Lib\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
