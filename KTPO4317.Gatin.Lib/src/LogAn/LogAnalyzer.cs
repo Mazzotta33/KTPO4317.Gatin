@@ -19,7 +19,7 @@ public class LogAnalyzer
             catch (Exception e)
             {
                 IEmailService emailService = EmailServiceFactory.Create();
-                emailService.SendEmail("someone@somewhere.com", "EmailServie error", e.Message);
+                emailService.SendEmail("someone@somewhere.com", "EmailService error", e.Message);
             }
             
         }

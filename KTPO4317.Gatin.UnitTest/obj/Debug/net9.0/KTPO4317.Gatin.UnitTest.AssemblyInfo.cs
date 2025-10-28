@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KTPO4317.Gatin.UnitTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e7e935dc3d620bff8e5fc7fb3c81add8e83b8ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce7dfd1048888b0141547e21b6e51388cdae1c83")]
 [assembly: System.Reflection.AssemblyProductAttribute("KTPO4317.Gatin.UnitTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KTPO4317.Gatin.UnitTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

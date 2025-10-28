@@ -57,10 +57,8 @@ namespace KTPO4317.Gatin.UnitTest.LogAn
             LogAnalyzer log = new LogAnalyzer();
             string fileName = "short";
         
-            //Act
             log.Analyze(fileName);
 
-            //Assert
             Assert.That(mockWebService.LastError, Is.EqualTo("Too short filename: " + fileName));
         }
         
@@ -83,7 +81,7 @@ namespace KTPO4317.Gatin.UnitTest.LogAn
 
             //Assert
             Assert.That(mockEmailService.LastTo, Is.EqualTo("someone@somewhere.com"));
-            Assert.That(mockEmailService.LastSubject, Is.EqualTo("EmailServie error"));
+            Assert.That(mockEmailService.LastSubject, Is.EqualTo("EmailService error"));
             Assert.That(mockEmailService.LastBody, Is.EqualTo("Это подделка"));
         }
     }

@@ -17,4 +17,8 @@
       <ProjectReference Include="..\KTPO4317.Gatin.Lib\KTPO4317.Gatin.Lib.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="NSubstitute" Version="5.3.0" />
+    </ItemGroup>
+
 </Project>
