@@ -7,6 +7,8 @@ public interface IWebService
 
 public class LogAnalyzer
 {
+    public event LogAnalyzerAction Analyzed = null;
+    
     public void Analyze(string fileName)
     {
         if (fileName.Length < 8)
@@ -23,6 +25,10 @@ public class LogAnalyzer
             }
             
         }
+        
+        //Вызов события
+        if (Analyzed != null)
+            Analyzed();
     }
 
     public bool IsValidLogFileName(string fileName)
