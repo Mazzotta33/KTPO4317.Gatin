@@ -112,3 +112,8 @@ D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Service\obj\Debug\net9.0\refint\KTPO43
 D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Service\obj\Debug\net9.0\KTPO4317.Gatin.Service.pdb
 D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Service\obj\Debug\net9.0\KTPO4317.Gatin.Service.genruntimeconfig.cache
 D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Service\obj\Debug\net9.0\ref\KTPO4317.Gatin.Service.dll
+D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Service\bin\Debug\net9.0\Castle.Core.dll
+D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Service\bin\Debug\net9.0\NSubstitute.dll
+D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Service\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Service\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Service\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll

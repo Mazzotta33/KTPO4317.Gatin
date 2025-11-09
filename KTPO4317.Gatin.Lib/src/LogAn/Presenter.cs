@@ -2,10 +2,10 @@
 
 public class Presenter
 {
-    private LogAnalyzer _logAnalyzer;
+    private ILogAnalyze _logAnalyzer;
     private IView _view;
 
-    public Presenter(LogAnalyzer logAnalyzer, IView view)
+    public Presenter(ILogAnalyze logAnalyzer, IView view)
     {
         _logAnalyzer = logAnalyzer;
         _view = view;

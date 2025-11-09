@@ -5,7 +5,7 @@ public interface IWebService
     void LogError(string message);
 }
 
-public class LogAnalyzer
+public class LogAnalyzer : ILogAnalyze
 {
     public event LogAnalyzerAction Analyzed = null;
     
@@ -42,5 +42,11 @@ public class LogAnalyzer
         {
             return false;
         }
+    }
+    
+    protected void RaiseAnalyzedEvent()
+    {
+        if (Analyzed != null)
+            Analyzed(); 
     }
 }

@@ -84,6 +84,21 @@ namespace KTPO4317.Gatin.UnitTest.LogAn
             Assert.That(mockEmailService.LastSubject, Is.EqualTo("EmailService error"));
             Assert.That(mockEmailService.LastBody, Is.EqualTo("Это подделка"));
         }
+        
+        [Test]
+        public void Analyze_WhenAnalyzes_FiredEvent()
+        {
+            //Arrange
+            bool analyzedFired = false;
+            LogAnalyzer log = new LogAnalyzer();
+            log.Analyzed += delegate()
+            {
+                analyzedFired = true;
+            };
+            log.Analyze("validfilename.ext");
+
+            Assert.That(analyzedFired, Is.True);
+        }
     }
 
     internal class FakeWebService : IWebService
