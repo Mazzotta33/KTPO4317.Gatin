@@ -117,3 +117,5 @@ D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Service\bin\Debug\net9.0\NSubstitute.d
 D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Service\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
 D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Service\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
 D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Service\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Service\bin\Debug\net9.0\Castle.Windsor.dll
+D:\Лабы\KTPO4317.Gatin\KTPO4317.Gatin.Service\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
