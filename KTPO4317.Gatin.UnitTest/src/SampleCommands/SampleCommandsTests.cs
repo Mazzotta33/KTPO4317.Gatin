@@ -48,7 +48,7 @@ public class SampleCommandsTests
         ISampleCommand sampleCommand = Substitute.For<ISampleCommand>();
         IndependentDecorator independentDecorator = new IndependentDecorator(sampleCommand, mockView);
         
-        independentDecorator.Execute();ch
+        independentDecorator.Execute();
             
         
         sampleCommand.Received().Execute();
